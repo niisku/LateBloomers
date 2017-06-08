@@ -82,14 +82,15 @@ public class MainActivity extends AppCompatActivity {
         TextView resultArea = (TextView) findViewById(R.id.results_text_view);
 
         if (scores == 7) {
-            message = "Amazing! You knew all the answers! \nYou see, nothing is impossible! \nPress 'Reset' button to play again!";
+            message = "Amazing! You knew all the answers! \nYou see, nothing is impossible!";
             scores = 0;
 
         } else {
-            message = "You scored " + scores + " out of 7. \nUnfortunately some of the answers are incorrect. Keep trying, and maybe someday you will be ON this quiz! \nPress 'Reset' button to play again! ";
+            message = "You scored " + scores + " out of 7. \nUnfortunately some of the answers are incorrect. Keep trying, and maybe someday you will be ON this quiz!";
             scores = 0;
         }
-        resultArea.setText(String.valueOf(message));
+        resultArea.setText(String.valueOf("Press 'Reset' button to play again!"));
+        Toast.makeText(this, message, Toast.LENGTH_LONG).show();
     }
 
     //This resets all the values
