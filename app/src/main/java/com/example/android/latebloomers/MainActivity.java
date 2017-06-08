@@ -36,31 +36,32 @@ public class MainActivity extends AppCompatActivity {
         //Question 2, Checks if the correct answer is checked
         RadioButton rb2 = (RadioButton) findViewById(R.id.radio_button_q2_correct);
         if (rb2.isChecked()) {
-            scores = scores + 1;
+            scores++;
         }
 
         //Question 3, Checks if the correct answer is checked
         RadioButton rb3 = (RadioButton) findViewById(R.id.radio_button_q3_correct);
         if (rb3.isChecked()) {
-            scores = scores + 1;
+            scores++;
         }
         //Question 4, Checks if the correct answer is checked
         RadioButton rb4 = (RadioButton) findViewById(R.id.radio_button_q4_correct);
         if (rb4.isChecked()) {
-            scores = scores + 1;
+            scores++;
         }
         //Question 5, Checks if the correct answer is checked
         RadioButton rb5 = (RadioButton) findViewById(R.id.radio_button_q5_correct);
         if (rb5.isChecked()) {
-            scores = scores + 1;
+            scores++;
         }
 
         //Question 6; Get point if both the correct (1 and 2) checkboxes are checked
         CheckBox checkBox_1 = (CheckBox) findViewById(R.id.checkbox_correct1);
         CheckBox checkBox_2 = (CheckBox) findViewById(R.id.checkbox_correct2);
+        CheckBox checkBox_3 = (CheckBox) findViewById(R.id.checkbox_3);
 
-        if (checkBox_1.isChecked() && checkBox_2.isChecked()) {
-            scores = scores + 1;
+        if (checkBox_1.isChecked() && checkBox_2.isChecked() && !checkBox_3.isChecked()) {
+            scores++;
 
         }
 
@@ -69,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         String q7 = q7_input_answer.getText().toString();
 
         if (q7.equalsIgnoreCase("kfc")) {
-            scores = scores + 1;
+            scores++;
         }
 
         //Shows the feedback message
