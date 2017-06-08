@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">LateBloomers</string>
+    <string name="welcome_text">Welcome to play Late Bloomers! </string>
+    <string name="header_text">Please select your answer for each of the questions. In the 6th question, select more than one option, and in the 7th question, please write your answer. When done, click the Submit button! </string>
+
+    <string name="question_number1">Question 1</string>
+    <string name="question_number2">Question 2</string>
+    <string name="question_number3">Question 3</string>
+    <string name="question_number4">Question 4</string>
+    <string name="question_number5">Question 5</string>
+    <string name="question_number6">Question 6</string>
+    <string name="question_number7">Question 7</string>
+
+    <string name="question_content1">At what age did Vera Wang decide to change her career into an independent bridal wear designer? </string>
+    <string name="question_content2">At what age did Charles Darwin publish his theory of evolution in his book "On the Origin of Species"? </string>
+    <string name="question_content3">At what age did Reid Hoffman co-founded LinkedIn? </string>
+    <string name="question_content4">At what age did Fauja Sing run his first marathon? </string>
+    <string name="question_content5">Around what age did Edmond Hoyle begin to write down the rules of various card games? </string>
+    <string name="question_content6">At age of 35, what were the professions of Harrison Ford? </string>
+    <string name="question_content7">What is the name of a famous chicken restaurant franchise, started by Colonel Sanders in the age of 62?</string>
+
+    <string name="checkbox_1">Carpenter</string>
+    <string name="checkbox_2">Actor</string>
+    <string name="checkbox_3">Chef</string>
+
+    <string name="radio_button_q1">40</string>
+    <string name="radio_button_q2">50</string>
+    <string name="radio_button_q3">35</string>
+    <string name="radio_button_q4">89</string>
+    <string name="radio_button_q5">70</string>
+    <string name="radio_button_55">55</string>
+    <string name="radio_button_27">27</string>
+    <string name="radio_button_35">35</string>
+    <string name="radio_button_62">62</string>
+    <string name="radio_button_39">39</string>
+    <string name="radio_button_28">28</string>
+    <string name="radio_button_46">46</string>
+    <string name="radio_button_33">33</string>
+
+    <string name="button_submit">Submit</string>
+    <string name="button_reset">Reset scores</string>
+
+    <string name="results_text">Click \"Submit\" button to see your results! </string>
+
+</resources>
